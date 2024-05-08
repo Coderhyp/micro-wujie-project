@@ -10,10 +10,20 @@
     "type": "git",
     "url": "git+ssh://git@github.com/Coderhyp/micro-project-lab.git"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Coderhyp/micro-project-lab/issues"
   },
-  "homepage": "https://github.com/Coderhyp/micro-project-lab#readme"
+  "homepage": "https://github.com/Coderhyp/micro-project-lab#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "cz-git": "^1.9.1"
+  }
 }
